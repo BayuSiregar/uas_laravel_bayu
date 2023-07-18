@@ -44,12 +44,12 @@
                     @csrf
                 <div class="form-group">
                     <label for="siswa">Nama Siswa <span style="color: red;">*</span></label>
-                    <input type="text" class="form-control" id="nama_siswa" name="nama_siswa" style="width: 350px!important;">
+                    <input type="text" class="form-control" id="nama_siswa" name="nama_siswa" style="width: 300px!important;">
                 </div> <br>
                 <div class="row">
                     <div class="col">
                     <label for="siswa">Kelas</label> <span style="color: red;">*</span></label> <br>
-                    <select class="form-select" name="kelas" id="kelas" style="width: 350px!important;">
+                    <select class="form-select" name="kelas" id="kelas" style="width: 300px!important;">
                       <option selected>-Pilih Kelas-</option>
                       <option value="X-1">X-1</option>
                       <option value="X-2">X-2</option>
@@ -71,7 +71,7 @@
                     </div> 
                     <div class="col"> <br>
                     <label for="siswa">Jurusan</label> <span style="color: red;">*</span></label> <br>
-                    <select class="form-select" aria-label="Default select example" name="jurusan" id="jurusan" style="width: 350px!important;">
+                    <select class="form-select" aria-label="Default select example" name="jurusan" id="jurusan" style="width: 300px!important;">
                       <option selected>-Pilih Jurusan-</option>
                       <option value="IPA">IPA</option>
                       <option value="IPS">IPS</option>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="col"> <br>
                     <label for="siswa">Jenis Kelamin</label> <span style="color: red;">*</span></label> <br>
-                    <select class="form-select" aria-label="Default select example" name="jenis_kelamin" id="jenis_kelamin" style="width: 350px!important;">
+                    <select class="form-select" aria-label="Default select example" name="jenis_kelamin" id="jenis_kelamin" style="width: 300px!important;">
                       <option selected>-Pilih Jenis Kelamin-</option>
                       <option value="Laki-Laki">Laki-Laki</option>
                       <option value="Perempuan">Perempuan</option>
@@ -89,7 +89,7 @@
                     <div class="mb-3">
                     <br>
                     <label for="alamat" class="form-label">Alamat</label> <span style="color: red;">*</span></label>
-                    <textarea class="form-control" id="alamat" name="alamat" rows="3" style="width: 350px!important;"></textarea>
+                    <textarea class="form-control" id="alamat" name="alamat" rows="3" style="width: 300px!important;"></textarea>
                 </div>
                 </div>
                 <button type="submit" class="btn btn-info"><i class="bi bi-save"></i> Save</button>

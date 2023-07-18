@@ -7,8 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ ('SMAN 1 HALONGONAN') }}</title>
-    <link rel="shortcut icon" href="https://rekreartive.com/wp-content/uploads/2019/04/Logo-SMA-PNG-Terbaru-Warna.png" type="image/x-icon">
+    <title>{{ ('SMAN 1 MEDAN') }}</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/1/10/Logo_SMAN_1_Medan.jpg" type="image/x-icon">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -32,7 +32,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-info shadow-lg">
             <div class="container" style="height: 60px!important;">
                 <a class="navbar-brand" href="{{ url('/home') }}">
-                    {{ ('SMAN 1 HALONGONAN') }} <a href="/siswa" class="navbar-brand">DATA SISWA</a> <a href="/guru" class="navbar-brand">DATA GURU PIKET</a> <a href="/terlambat" class="navbar-brand">DATA KETERLAMBATAN</a>
+                    {{ ('SMAN 1 MEDAN') }} <a href="/siswa" class="navbar-brand">DATA SISWA</a> <a href="/guru" class="navbar-brand">DATA GURU PIKET</a> <a href="/terlambat" class="navbar-brand">DATA KETERLAMBATAN</a>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
